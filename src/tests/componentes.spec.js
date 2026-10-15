@@ -22,9 +22,9 @@ describe("Suite de 10 Pruebas Unitarias Frontend - Grand Line Posters (React + J
     document.body.removeChild(contenedorDOM);
   });
 
-  // =========================================================================
+  // ========================================================================
   // 1. PRUEBAS DE RENDERIZADO CORRECTO (Componente Home / Catálogo)
-  // =========================================================================
+  // ========================================================================
   it("1. [Componente Home - Renderizado] Debe renderizar en el DOM todos los elementos de la lista de productos", function() {
     mockCatalogo.forEach(function(prod) {git config --global user.name "John Doe"
       const card = document.createElement('div');
