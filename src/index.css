@@ -1,0 +1,87 @@
+
+body {
+    position: relative; 
+    background-image: url(img/background.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff; 
+    cursor: url('img/puntero.png'), auto;
+}
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+
+
+.container {
+    position: relative; 
+}
+
+h1 {
+    color: #fff; 
+}
+
+h2, h3 {
+    color: #dae901cb; 
+    margin-top: 20px;
+    border-bottom: 2px solid #555; 
+    padding-bottom: 5px;
+}
+
+
+.wiki-infobox {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+    padding: 15px;
+    color: #333;
+}
+
+.wiki-infobox img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.wiki-infobox h4 {
+    background-color: #b71c1c; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.wiki-infobox p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+}
+
+.wiki-infobox strong {
+    color: #555;
+}
+
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-color: #ddd;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
